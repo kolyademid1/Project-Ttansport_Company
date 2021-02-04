@@ -1,0 +1,45 @@
+<! DOCTYPE html >
+< html  lang = " ru " >
+< голова >
+    < meta  charset = " UTF-8 " >
+    < meta  name = " viewport " content = " width = device-width, initial-scale = 1.0 " >
+    < title > OJJO </ title >
+    < link  rel = " stylesheet " href = " style.css " >
+    < link  rel = " stylesheet " href = " reset.css " >
+</ голова >
+< тело >
+< div  class = " first-screen " >
+    < header  class = " top-line " > 
+        < HREF = " # " класс =" сверху линия ссылка " > Контрагенты </ > 
+        < HREF = " # " класс =" сверху линия ссылка " > Дизайнеры </ > 
+        < HREF = " # " класс =" сверху линии ссылка " > Вакансии </ > 
+        < HREF = " # " класс =" значок " > < IMG SRC =" OJJO.png " альт =" логотип " > </ >  
+        < HREF = " # " класс =" значок " > < IMG SRC =" Vector (1) .png " альт ="" > </ >    
+        < HREF = " # " класс =" сверху линии ссылка " >   Поиск </ > 
+        < HREF = " # " класс =" сверху линии ссылка " > Вход / Регистрация </ > 
+        < HREF = " # " класс =" значок " > < IMG SRC =" Vector (2) .png " альт ="" > </ >   
+        < HREF = " # " класс =" значок " > < IMG SRC =" Vector (3) .png " альт ="" > </ >   
+    </ заголовок >
+    < div  class = " first-screen_brands " >
+        < div  class = " first-screen_brands-item " > 
+            < img  src = " Rectangle 2.png " alt = " Бренды " >
+        </ div >
+        < div  class = " first-screen_brands-item " > </ div >
+        < div  class = " first-screen_brands-item " > </ div >
+        < div  class = " first-screen_brands-item " > </ div >
+        < div  class = " first-screen_brands-item " > </ div >
+        < div  class = " first-screen_brands-item " > </ div >
+    </ div >
+    < div  class = " button_catalog " > </ div >
+    < div  class = " name_h1 " > </ div >
+</ div >
+< div  class = " second-screen " > </ div >
+
+< div  class = " our-salon " > </ div >
+< div  class = " blog " > </ div >
+< div  class = " gallery " > </ div >
+< div  class = " subscribe " > </ div >
+< div  class = " footer " > </ div >
+
+</ body >
+</ html >
