@@ -23,7 +23,6 @@ header {
 /* Ссылки в шапке*/ 
  .top-line-link {
     color: #fff;
-     font-family: 'Noto Serif', serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -140,5 +139,84 @@ header .top_logo{
     padding:0 15px 0 15px;
 }
 
+.sec-screen{
+    background-color:#E5E5E5;
+        height:851px;
+        max-width: 1110px;
+        left: 0px;
+        top: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .sec-screen .title_02{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+    }
 
-    
+.sec-screen .title_02 h5{
+    width: 350px;
+    height: 29px;
+    font-family:'Noto Serif', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 29px;
+    text-align: center;
+    color: #333333;
+    margin: 15 0px;
+}
+.sec-screen .title_02 h2{
+    width: 540px;
+    height: 41px;
+    font-family: 'Noto Serif', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+}
+.sec-screen_list .two-scr-list_item{
+    width: 165px;
+    height: 55px;
+    background: #F9F9F9;
+    border: 1px solid #D6D6D6;
+}
+.sec-screen_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sec-screen_list .two-scr-list_item a{
+    font-family:'Noto Serif', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #333333;
+    text-align: center;
+} 
+.sec-screen_list .two-scr-list_item a:hover{
+    background-color: #333333;
+    color: #FFFFFF;
+}
+.sec-screen_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sec-screen_list.two-scr-list_item{
+    width: 350px;
+    height: 280px;
+}
+
+
+
