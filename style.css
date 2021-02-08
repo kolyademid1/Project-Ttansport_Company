@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
-/* Ссылки в шапке*/ 
+/* Первый Экран*/ 
 .first-screen{
     background-image:url(bgc.png);
     height:950px;
     width:1920px;
     left: 0px;
     top: 0px;
-    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
-/* header*/ 
+/*header*/ 
 header {
     display: flex;
     width: 100%;
@@ -26,33 +29,41 @@ header {
     font-size: 14px;
     line-height: 150%; 
 }
-/*Ссылки шапки(Левые)  */
+/*Ссылки шапки(Левые) */
 header .top-left_link {
     padding-top: 43px;
 }
 .top-left_link a{
 margin-right: 40px;
 }
+/*Ссылки шапки(Правые) */
 header .top-right_link,.top-right_link .top_function{
     display: flex;
     flex-direction: row;
 }   
+
+/* Отсупы в header*/
 .top-right_link .top_function{
     padding-top: 43px;
     margin-right: 44px;
 }
+
 .top-right_link .top_function a{
 margin-right: 40px;
 }
+
 .top-right_link .top_icon{
     padding-top: 45px;
 }
+
 .top-right_link .top_icon a{
     margin-right: 30px;
 }
+
 .top-right_link .top_function .icon_small{
     margin-right: 16px;
 }
+
 header .top_logo{
     margin: 25px 102px 0px 126px;
 }
@@ -61,38 +72,24 @@ header .top_logo{
     display: flex;
     margin-top: 43px 30px;
 }
- /*.icon_small img{
-    display: inline-block;
-    margin:45px;
-    height: 180px;
-    } */
-
-/*.name_h1{
-    display: block;
-    flex-direction: row;
-    align-items:center;
-    justify-content: center;
-    position:absolute;
-}*/ 
-
-.name_h1{
-    margin: 0 auto;
+.name_h1 h1{
+    margin-bottom: 50px;
     width: 730px;
     height: 49px;
-}
-h1{
+    align: center;
     font-family: 'Noto Serif', serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 49px;
-    text-align: center;
+    text-align:center;
     color:#fff;
 }
-.button_catalog h3{
+/*  Сслыка каталога*/
+.first-screen .button_catalog a{
     font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: 500px;
+    font-size: 16px;
     line-height: 21px;
     text-align: center;
     letter-spacing: 0.1em;
@@ -102,34 +99,46 @@ h1{
     text-align: center;
     width: 191px;
 }
-.button_catalog{
+.first-screen .button_catalog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
     background: #333333;
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
-    position: absolute;
     padding: 15px 35px;
     width: 261px;
     height: 51px;
     left: 830px;
     top: 699px;
+    margin-bottom: 80px;
 }
+/*Иконки брендов блоку*/
 .first-screen_brands{
-    width: 1110px;
-    height: 60px;
-    display: flex;
+    width: 100%;
+    height: 120px;
+    display:flex;
     flex-direction: row;
     justify-content:center;
-    margin: 0 auto;
-
-    
- 
+    align-items: center;
+    border-top: 1px solid #fff;
 }
+/*Иконки брендов картинкам*/
 .first-screen_brands-item{
-    width: 160px;
+    width: 190px;
     height: 60px;
     color: #fff;
-    margin: 0 ;
+    padding:0 15px 0 15px;
+    border-right: 1px solid #fff;
 }
-    
+/*Иконки брендов правой картинке*/
+.first-screen_brands-item01{
+    width: 190px;
+    height: 60px;
+    color: #fff;
+    padding:0 15px 0 15px;
+}
+
 
     
