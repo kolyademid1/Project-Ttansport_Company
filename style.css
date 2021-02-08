@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
-
+/* Ссылки в шапке*/ 
 .first-screen{
     background-image:url(bgc.png);
     height:950px;
@@ -9,24 +9,57 @@
     top: 0px;
     z-index: 1;
 }
-   a{
-    text-decoration: none;
-   }
+/* header*/ 
 header {
     display: flex;
     width: 100%;
     height: 52px;
     justify-content: center;
+    margin-bottom: 523px;
 }
 /* Ссылки в шапке*/ 
  .top-line-link {
     color: #fff;
-    font-family: Noto Serif;
+     font-family: 'Noto Serif', serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 150%;
-    margin: 43px 40px 0 16px;   
+    line-height: 150%; 
+}
+/*Ссылки шапки(Левые)  */
+header .top-left_link {
+    padding-top: 43px;
+}
+.top-left_link a{
+margin-right: 40px;
+}
+header .top-right_link,.top-right_link .top_function{
+    display: flex;
+    flex-direction: row;
+}   
+.top-right_link .top_function{
+    padding-top: 43px;
+    margin-right: 44px;
+}
+.top-right_link .top_function a{
+margin-right: 40px;
+}
+.top-right_link .top_icon{
+    padding-top: 45px;
+}
+.top-right_link .top_icon a{
+    margin-right: 30px;
+}
+.top-right_link .top_function .icon_small{
+    margin-right: 16px;
+}
+header .top_logo{
+    margin: 25px 102px 0px 126px;
+}
+
+.top_icon{
+    display: flex;
+    margin-top: 43px 30px;
 }
  /*.icon_small img{
     display: inline-block;
@@ -34,26 +67,6 @@ header {
     height: 180px;
     } */
 
-/* Иконка логотипа*/ 
-.top-line a:nth-child(4){
-    margin: 25px 102px 0 126px;}
-
-/* Иконка поиска*/ 
-.top-line a:nth-child(5){
-    margin: 45px 16px;
-}
-/* Иконка Аккаунта*/
-.top-line a:nth-child(8){
-    margin:45px 30px 0 44px ; 
-}
-/* Иконка Лайка*/
-.top-line a:nth-child(9){
-    margin:45px 0px 0 30px; 
-}*/ 
-/*Иконка поиска*/ 
-.top-line a:nth-child(9){
-    margin-right:29px;
-} 
 /*.name_h1{
     display: block;
     flex-direction: row;
@@ -61,11 +74,14 @@ header {
     justify-content: center;
     position:absolute;
 }*/ 
+
 .name_h1{
-    margin: 536px 500px 0 595px;
+    margin: 0 auto;
+    width: 730px;
+    height: 49px;
 }
 h1{
-    font-family: Noto Serif;
+    font-family: 'Noto Serif', serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -97,21 +113,14 @@ h1{
     left: 830px;
     top: 699px;
 }
-hr{
-    position: absolute;
-    width: 1920px;
-    height: 0px;
-    left: 0px;
-    top: 830px;
-    border: 1px solid #FFFFFF;
-}
 .first-screen_brands{
     width: 1110px;
     height: 60px;
     display: flex;
     flex-direction: row;
     justify-content:center;
-    z-index: 2;
+    margin: 0 auto;
+
     
  
 }
@@ -119,7 +128,7 @@ hr{
     width: 160px;
     height: 60px;
     color: #fff;
-    margin: 0 30px;
+    margin: 0 ;
 }
     
 
